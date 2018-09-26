@@ -1,0 +1,7 @@
+﻿syntax = "proto3";
+package kafka;
+
+message OrderMessage {
+	int32 id = 1;
+	string name = 2;
+}
